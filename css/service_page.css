@@ -12,7 +12,6 @@ body {
 #tm-video {
     width: 100%;
     height: auto;
-    background-color: #2b2833;
 }
 
 img {
@@ -53,6 +52,7 @@ img {
     display: inline-block;
     margin-right: 4vw;
     cursor:pointer;
+    text-decoration: underline;
 }
 
 .title_menu .service:hover {
@@ -402,11 +402,35 @@ img {
 
 /* service_view_19 CSS */
 .service_view_19 {
-    margin-top: 11vw;
-    margin-bottom: 30vw;
+    margin-top: 9vw;
 }
 
 .service_view_19 .view_19 {
     width: 73vw;
     display: table; margin-left: auto; margin-right: auto;
+}
+
+/* service_view_20 CSS */
+.service_view_20 {
+    width: 100%;
+    margin-top: 9vw;
+    margin-bottom: 11vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.view_20 {
+    width: 38vw;
+    margin-bottom: 25px;
+}
+
+.view_20_link {
+    width: 38vw;
+}
+
+.view_21 {
+    width: 100%;
 }

@@ -31,7 +31,7 @@ html,body {
 }
 
 .title_menu {
-    position: fixed;
+    position: absolute;
     width: 100%;
     height: fit-content;
     top: 3.5%;
@@ -53,6 +53,7 @@ html,body {
     display: inline-block;
     margin-right: 1vw;
     cursor:pointer;
+    text-decoration: underline;
 }
 
 .title_menu .story:hover {
@@ -526,4 +527,13 @@ html,body {
     width: 22.3vw;
     display: inline-block;
     margin-right: 1.2vw;
+}
+
+/* view_10 */
+.view_10 {
+    display: flex;
+    justify-content: center;    
+}
+.view_10 .img_view {
+    width: 70.4vw;
 }
